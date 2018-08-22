@@ -1,0 +1,49 @@
+##################################
+#      GITIGNORE FILE: MAIN      #
+#                                #
+# This gitignore file is a       #
+# global gitignore across the    #
+# entire JniC repo.              #
+#                                #
+# Below is a list of file        #
+# extensions that are to be      #
+# ignored on commit.             #
+##################################
+
+##################################
+#      SHARED LIBRARY FILES      #
+##################################
+
+*.so
+*.dyll
+
+##################################
+#         C SOURCE FILES         #
+##################################
+
+*.c
+*.cpp
+*.h
+
+##################################
+#       JAVA RELATED FILES       #
+##################################
+
+*.java
+*.class
+*.jar
+
+##################################
+#          MISCELLANEOUS         #
+##################################
+
+.DS_Store
+
+##################################
+# Copyright (c) 2018 by CodeDojo #
+#    and/or it's individual      #
+#          developers.           #
+#      All rights reserved.      #
+#                                #
+#  Licensed under the GNU GPL 3  #
+##################################

@@ -28,7 +28,7 @@ Download it now for free on [Linux](https://github.com/CodeDojoOfficial/JniC/blo
 - [Quick Start](#quick-start)
   - [How to Use](#how-to-use)
 - [Frequently Asked Questions](#frequently-asked-questions)
-  - [Can you create these libraries with multiple packages in mind?](#q--can-you-create-these-libraries-with-multiple-packages-in-mind)
+  - [Can you create these libraries with multiple packages in mind?](#q-can-you-create-these-libraries-with-multiple-packages-in-mind)
 
 ## Installation
 

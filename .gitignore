@@ -1,49 +1,47 @@
-##################################
-#      GITIGNORE FILE: MAIN      #
-#                                #
-# This gitignore file is a       #
-# global gitignore across the    #
-# entire JniC repo.              #
-#                                #
-# Below is a list of file        #
-# extensions that are to be      #
-# ignored on commit.             #
-##################################
+######################################
+#        GITIGNORE FILE: MAIN        #
+#                                    #
+# This gitignore file is a global    #
+# gitignore across the entire JniC   #
+# repository.                        #
+#                                    #
+# Below is a list of file extensions #
+# that are to be ignored on commit.  #
+######################################
 
-##################################
-#      SHARED LIBRARY FILES      #
-##################################
+######################################
+#      SHARED LIBRARY FILES          #
+######################################
 
 *.so
-*.dyll
+*.dll
 
-##################################
-#         C SOURCE FILES         #
-##################################
+######################################
+#         C SOURCE FILES             #
+######################################
 
 *.c
 *.cpp
 *.h
 
-##################################
-#       JAVA RELATED FILES       #
-##################################
+######################################
+#       JAVA RELATED FILES           #
+######################################
 
 *.java
 *.class
 *.jar
 
-##################################
-#          MISCELLANEOUS         #
-##################################
+######################################
+#          MISCELLANEOUS             #
+######################################
 
 .DS_Store
 
-##################################
-# Copyright (c) 2018 by CodeDojo #
-#    and/or it's individual      #
-#          developers.           #
-#      All rights reserved.      #
-#                                #
-#  Licensed under the GNU GPL 3  #
-##################################
+######################################
+#   Copyright (c) 2018 by CodeDojo   #
+# and/or it's individual developers. #
+#        All rights reserved.        #
+#                                    #
+#    Licensed under the GNU GPL 3    #
+######################################

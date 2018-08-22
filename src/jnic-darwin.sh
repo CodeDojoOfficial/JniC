@@ -117,7 +117,7 @@ function jnic() {
     cpp="$cpp ${value}Impl.cpp"
   done
 
-  g++ -fPIC -I"$JAVA_HOME/include" -I"$JAVA_HOME/include/linux" -shared -o lib${name}.so${cpp}
+  g++ -fPIC -I"$JAVA_HOME/include" -I"$JAVA_HOME/include/darwin" -shared -o lib${name}.so${cpp}
   
   ext="$?"
 

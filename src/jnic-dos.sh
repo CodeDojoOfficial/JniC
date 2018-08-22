@@ -13,6 +13,7 @@
 # all you have to do is run it. This method has something special in it, however. In this
 # method, it will generate native method source files, and you get to define their
 # functionality!
+# Note! This implementation requires Cygwin, and a C++ compiler.
 #
 # Version: 1.0.0
 function jnic() {
@@ -20,11 +21,11 @@ function jnic() {
 
   echo "Input: $@"
 
-  echo "What would you like the name of this library to be? Don't include the lib prefix or .so suffix."
+  echo "What would you like the name of this library to be? Don't include the .dll suffix."
 
   read name
 
-  echo "Ok. The resulting file name will be lib${name}.so and your static block should contain \`System.loadLibrary(\"${name}\");'."
+  echo "Ok. The resulting file name will be ${name}.dll and your static block should contain \`System.loadLibrary(\"${name}\");'."
 
   sleep 3
   
@@ -117,7 +118,7 @@ function jnic() {
     cpp="$cpp ${value}Impl.cpp"
   done
 
-  g++ -fPIC -I"$JAVA_HOME/include" -I"$JAVA_HOME/include/linux" -shared -o lib${name}.so${cpp}
+  x86_64-w64-mingw32-g++ -I"%JAVA_HOME%\include" -I"%JAVA_HOME%\include\win32" -shared -o ${name}.dll${cpp}
   
   ext="$?"
 

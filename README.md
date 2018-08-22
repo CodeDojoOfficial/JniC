@@ -129,6 +129,6 @@ Yay! It works! You just wrote your first Java program using native methods!
 
 We know you probably have many questions by now, and we would love to answer them, but to avoid repeat questions, here are some of our most commonly asked questions.
 
-## Q: Can you create these libraries with multiple classes in mind?
+## Q: Can you create these libraries with multiple packages in mind?
 
 **A:** Yes! Yes you can. All you have to do is run the command at the root of all packages. Not a directory lower. Thanks for asking!

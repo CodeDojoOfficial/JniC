@@ -12,6 +12,8 @@
   <font>JniC - The Java Native Interface Compiler Tool</font>
 </h3>
 
+**NOTE: JniC is now deprecated. Use the other script by me: [NativeInsert](https://github.com/CodeDojoOfficial/NativeInsert).**
+
 ## A Java Native Method Tool
 
 Never heard of a native method in Java? A native method is a method that is implemented later in the compilation process. However, if this just seems strange, I mean, why would you want a method that you have to implement later? But it is much better than that. A native method's source code, is written in the **C**/**C++** programming language!
